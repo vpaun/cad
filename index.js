@@ -90,7 +90,7 @@ async function fetchAndParse() {
 //   });
 
 
-  cron.schedule("*/1 * * * *", testCron);
+  cron.schedule("0 0 */1 * * *", testCron);
 
 
 
